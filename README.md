@@ -59,6 +59,39 @@ Open **`Object_Detection.ipynb`** and run the notebook cells to execute the obje
 4. **📌 Visualize Results**  
    - Bounding boxes with labels and confidence scores will be displayed.
 ---
+## 📊 Results
+
+Below are the key results of the object detection model, including **training accuracy** graphs and the **confusion matrix**.
+
+### 📈 Training Accuracy
+The following graphs represent the training accuracy trends over different epochs.
+
+#### **Training Accuracy vs Epochs**
+![Training Accuracy Graph](output1.jpg)
+
+#### **Validation Accuracy vs Epochs**
+![Validation Accuracy Graph](output2.jpg)
+
+---
+
+### 🔲 Confusion Matrix
+The confusion matrix below visualizes the model's performance in classifying detected objects.
+
+![Confusion Matrix](/output.jpg)
+
+---
+
+### 📂 Uploading Your Own Results
+To display your own training accuracy graphs and confusion matrix:
+1. 📤 Save your result images inside the `results/` folder.
+2. 🖼️ Update the image filenames in this `README.md` file.
+3. ✅ Commit and push changes to GitHub.
+
+```bash
+git add results/
+git commit -m "Added training accuracy graphs and confusion matrix"
+git push origin main
+
 
 ## ⚙️ Model Customization
 - To **🛠️ train on a custom dataset**, modify the dataset loading pipeline in the notebook.
