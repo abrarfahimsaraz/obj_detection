@@ -77,7 +77,7 @@ The following graphs represent the training accuracy trends over different epoch
 ### 🔲 Confusion Matrix
 The confusion matrix below visualizes the model's performance in classifying detected objects.
 
-![Confusion Matrix](/output.jpg)
+![Confusion Matrix](output.jpg)
 
 ---
 
