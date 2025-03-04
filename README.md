@@ -67,17 +67,17 @@ Below are the key results of the object detection model, including **training ac
 The following graphs represent the training accuracy trends over different epochs.
 
 #### **Training Accuracy vs Epochs**
-![Training Accuracy Graph](output1.jpg)
+![Training Accuracy Graph](output1.png)
 
 #### **Validation Accuracy vs Epochs**
-![Validation Accuracy Graph](output2.jpg)
+![Validation Accuracy Graph](output2.png)
 
 ---
 
 ### 🔲 Confusion Matrix
 The confusion matrix below visualizes the model's performance in classifying detected objects.
 
-![Confusion Matrix](output.jpg)
+![Confusion Matrix](output.png)
 
 ---
 
